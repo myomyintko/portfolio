@@ -33,12 +33,12 @@
           <a
             class="font-thin text-4xl lowercase cursor-pointer"
             style="font-family: 'WindSong', cursive"
-            href="/index.html"
+            href="./index.html"
           >
             MyoMyintKo
           </a>
         </div>
-        <button class="open-menu lg:hidden open-menu outline-none">
+        <button class="open-menu lg:hidden open-menu outline-none" name="menu">
           <svg
             class="w-10 h-10"
             viewBox="0 0 24 24"
@@ -73,7 +73,7 @@
           <a class="nav-link from-top active" href="#home">Home</a>
           <a class="nav-link from-top" href="#about">About Me</a>
           <a class="nav-link from-top" href="#experience">Experience</a>
-          <!-- <a class="nav-link from-top" href="#contact">Contact</a> -->
+          <a class="mail-link" href="mailto:myomyintko.developer@gmail.com">Contact</a>
         </div>
       </nav>
       <!-- mobile menubar -->
@@ -134,7 +134,7 @@
           <a class="mobile-nav-link py-4" href="#home">Home</a>
           <a class="mobile-nav-link py-4" href="#about">About Me</a>
           <a class="mobile-nav-link py-4" href="#experience">Experience</a>
-          <!-- <a class="mobile-nav-link py-4" href="#contact">Contact</a> -->
+          <a class="mobile-mail-link py-4" href="mailto:myomyintko.developer@gmail.com">Contact</a>
         </ul>
       </div>
     </header>
@@ -208,7 +208,9 @@
               <img
                 class="w-full mx-auto"
                 src="./img/profile_2.jpg"
-                alt="profile"
+                alt="hero-profile"
+                width="auto"
+                height="auto"
               />
             </div>
           </div>
@@ -220,6 +222,7 @@
         >
           <a
             href="#about"
+            aria-label="Scroll"
             class="
               pt-10
               w-7
@@ -267,6 +270,8 @@
               class="w-full cursor-pointer"
               src="./img/profile_5.jpeg"
               alt="profile"
+              width="auto"
+                height="auto"
             />
             <div class="absolute top-0">
               <ul
@@ -284,22 +289,22 @@
                 "
               >
                 <li>
-                  <a href="https://facebook.com/virust.mmk" target="_blank"
+                  <a href="https://facebook.com/virust.mmk" target="_blank" aria-label="Faceboook" rel="noreferrer"
                     ><i class="fab fa-facebook-f"></i
                   ></a>
                 </li>
                 <li>
-                  <a href="https://github.com/MyoMyintKo" target="_blank"
+                  <a href="https://github.com/MyoMyintKo" target="_blank" aria-label="GitHub" rel="noreferrer"
                     ><i class="fab fa-github"></i
                   ></a>
                 </li>
                 <li>
-                  <a href="https://linkedin.com/in/myomyintko" target="_blank"
+                  <a href="https://linkedin.com/in/myomyintko" target="_blank" aria-label="LinkedIn" rel="noreferrer"
                     ><i class="fab fa-linkedin-in"></i
                   ></a>
                 </li>
                 <li>
-                  <a href="https://twitter.com/MyoMyintKo4" target="_blank"
+                  <a href="https://twitter.com/MyoMyintKo4" target="_blank" aria-label="Twitter" rel="noreferrer"
                     ><i class="fab fa-twitter"></i
                   ></a>
                 </li>
@@ -366,7 +371,7 @@
                   >
                     Birthday
                   </p>
-                  <span class="not-italic text-gray-500">Sept 12, 2002</span>
+                  <span class="not-italic text-gray-500 bg-curren">Sept 12, 2002</span>
                 </div>
                 <div class="flex text-center space-x-5">
                   <p
@@ -379,7 +384,7 @@
                   >
                     Age
                   </p>
-                  <span class="not-italic text-gray-500">19</span>
+                  <span class="not-italic text-gray-500 bg-curren">19</span>
                 </div>
                 <div class="flex text-center space-x-5">
                   <p
@@ -392,7 +397,7 @@
                   >
                     Address
                   </p>
-                  <span class="not-italic text-gray-500">Yangon, Myanmar</span>
+                  <span class="not-italic text-gray-500 bg-curren">Yangon, Myanmar</span>
                 </div>
 
                 <div class="flex text-center space-x-5">
@@ -406,7 +411,7 @@
                   >
                     Freelance
                   </p>
-                  <span class="not-italic text-gray-500">Available</span>
+                  <span class="not-italic text-gray-500 bg-curren">Available</span>
                 </div>
               </div>
               <div class="space-y-3">
@@ -421,7 +426,7 @@
                   >
                     E-mail
                   </p>
-                  <span class="not-italic text-gray-500"
+                  <span class="not-italic text-gray-500 bg-curren"
                     >virust@myomyintko.com</span
                   >
                 </div>
@@ -436,7 +441,7 @@
                   >
                     Phone
                   </p>
-                  <span class="not-italic text-gray-500">+959 785 260 805</span>
+                  <span class="not-italic text-gray-500 bg-curren">+959 785 260 805</span>
                 </div>
                 <div class="flex text-center space-x-5">
                   <p
@@ -449,7 +454,7 @@
                   >
                     Skype
                   </p>
-                  <span class="not-italic text-gray-500">myomyintko5584</span>
+                  <span class="not-italic text-gray-500 bg-curren">myomyintko5584</span>
                 </div>
               </div>
             </div>
@@ -841,226 +846,10 @@
                 >
               </div>
             </div>
-
-            <!-- Testimonials -->
-            <!-- <div>
-              <div class="testo-title">
-                <h2>
-                  <i> TESTIMONIALS </i>
-                </h2>
-              </div>
-              <div class="testo">
-                <img src="./img/profile_3.jpg" alt="someone" />
-                <h3>Chris Jones</h3>
-                <h5>CEO / Dream Inc.</h5>
-                <p>
-                  He is a great and hardworking guy. I am so proud of i have him
-                  as my asistant. He helped me so much. Also i am so proud of i
-                  have him as my asistant. He helped me so much.
-                </p>
-              </div>
-
-              <div class="testo">
-                <img src="./img/profile_3.jpg" alt="someone" />
-                <h3>Chris Jones</h3>
-                <h5>CEO / Dream Inc.</h5>
-                <p>
-                  He is a great and hardworking guy. I am so proud of i have him
-                  as my asistant. He helped me so much. Also i am so proud of i
-                  have him as my asistant. He helped me so much.
-                </p>
-              </div>
-
-              <div class="testo">
-                <img src="./img/profile_3.jpg" alt="someone" />
-                <h3>Chris Jones</h3>
-                <h5>CEO / Dream Inc.</h5>
-                <p>
-                  He is a great and hardworking guy. I am so proud of i have him
-                  as my asistant. He helped me so much. Also i am so proud of i
-                  have him as my asistant. He helped me so much.
-                </p>
-              </div>
-            </div> -->
-          </div>
         </div>
       </div>
     </section>
-
-    <!-- Contact -->
-    <!-- <section id="contact" class="sec-pad bg-gray-200">
-      <div class="px-3 lg:px-14">
-        <div
-          class="section-header uppercase text-center font-bold tracking-widest"
-        >
-          <h2 class="text-4xl block text-center md:inline md:text-5xl">
-            Let's Talk
-          </h2>
-          <p class="text-xl font-thin tracking-widest">
-            Web Developer based in myanmar
-          </p>
-        </div>
-        <form
-          id="contact-me"
-          class="
-            mt-20
-            lg:w-8/12
-            bg-white
-            p-4
-            pt-10
-            md:p-10 md:pt-16
-            lg:px-12
-            mx-auto
-            space-y-5
-            lg:pb-20
-            relative
-            lg:shadow-2xl
-          "
-        >
-          <div class="md:flex md:space-x-12 space-y-5 md:space-y-0">
-            <div class="w-full space-y-1">
-              <label for="first-name" class="block">First Name</label>
-              <input
-                class="
-                  border-b-2 border-black
-                  focus:border-0
-                  outline-none
-                  w-full
-                  px-1
-                  focus:border-blue-800
-                "
-                type="text"
-                name="firstname"
-                id="first-name"
-                autocomplete="off"
-              />
-            </div>
-            <div class="w-full space-y-1">
-              <label for="last-name" class="block">Last Name</label>
-              <input
-                class="
-                  border-b-2 border-black
-                  focus:border-0
-                  outline-none
-                  w-full
-                  px-1
-                  focus:border-blue-800
-                "
-                type="text"
-                name="lastname"
-                id="last-name"
-                autocomplete="off"
-              />
-            </div>
-          </div>
-          <div class="w-full space-y-1">
-            <label for="email" class="block">Email</label>
-            <input
-              class="
-                border-b-2 border-black
-                focus:border-0
-                outline-none
-                w-full
-                px-1
-                focus:border-blue-800
-              "
-              type="email"
-              name="_replyto"
-              id="email"
-              autocomplete="off"
-            />
-          </div>
-          <div class="w-full space-y-1">
-            <label for="subject" class="block">Subject</label>
-            <input
-              class="
-                border-b-2 border-black
-                focus:border-0
-                outline-none
-                w-full
-                px-1
-                focus:border-blue-800
-              "
-              type="text"
-              name="subject"
-              id="subject"
-            />
-          </div>
-          <div class="w-full space-y-1">
-            <label for="message" class="block">Message</label>
-            <textarea
-              class="
-                border-b-2 border-black
-                focus:border-0
-                outline-none
-                w-full
-                px-1
-                focus:border-blue-800
-                overflow-hidden
-              "
-              type="text"
-              name="message"
-              id="message"
-              rows="5"
-            ></textarea>
-          </div>
-          <button
-            class="
-              bg-blue-700
-              hover:bg-black
-              transition
-              duration-700
-              px-8
-              py-3
-              uppercase
-              font-normal
-              text-white
-              send-mail
-            "
-            type="submit"
-          >
-            Send
-          </button>
-          <div
-            class="
-              bg-green-100
-              border border-green-400
-              text-green-700
-              px-4
-              py-3
-              rounded
-              relative
-              hidden
-              mail-alert
-            "
-            role="alert"
-          >
-            <strong class="font-bold">Success</strong>
-            <span class="block sm:inline mail-status-text"
-              >Something seriously bad happened.</span
-            >
-            <span class="absolute top-0 bottom-0 right-0 px-4 py-3 close-alert">
-              <svg
-                class="fill-current h-6 w-6 text-green-500"
-                role="button"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-              >
-                <title>Close</title>
-                <path
-                  d="M14.348 14.849a1.2 1.2 0 0 1-1.697 0L10 11.819l-2.651 3.029a1.2 1.2 0 1 1-1.697-1.697l2.758-3.15-2.759-3.152a1.2 1.2 0 1 1 1.697-1.697L10 8.183l2.651-3.031a1.2 1.2 0 1 1 1.697 1.697l-2.758 3.152 2.758 3.15a1.2 1.2 0 0 1 0 1.698z"
-                />
-              </svg>
-            </span>
-          </div>
-        </form>
-      </div>
-    </section> -->
-
-    <script src="./js/jquery-2.1.4.min.js"></script>
-    <script src="./js/script.js"></script>
-    <script type="text/javascript">
-      eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('(3(){(3 a(){8{(3 b(2){7((\'\'+(2/2)).6!==1||2%5===0){(3(){}).9(\'4\')()}c{4}b(++2)})(0)}d(e){g(a,f)}})()})();',17,17,'||i|function|debugger|20|length|if|try|constructor|||else|catch||5000|setTimeout'.split('|'),0,{}))
-      </script>
+    <script async src="./js/jquery-2.1.4.min.js"></script>
+    <script async src="./js/script.js"></script>
   </body>
 </html>
