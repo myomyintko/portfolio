@@ -1,6 +1,6 @@
 $(window).on("load", () => {
   $(".loader").fadeOut();
-  $("#preloder").delay(500).fadeOut("slower");
+  $("#preloder").delay(100).fadeOut("slower");
 });
 $(document).ready(function () {
   // Mobile navbar
