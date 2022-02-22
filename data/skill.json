@@ -1,0 +1,40 @@
+{
+  "languages": [
+    "html",
+    "css",
+    "javascript",
+    "php",
+    "golang",
+    "java"
+  ],
+  "libraries":[
+      "bootstrap",
+      "tailwindcss",
+      "jquery"
+  ],
+  "frameworks": [
+    "vuejs",
+    "reactjs",
+    "nodejs",
+    "expressjs",
+    "laravel",
+    "gin"
+  ],
+  "databases": [
+    "mysql",
+    "sqlite",
+    "mongodb",
+    "cockroachdb"
+  ],
+  "servers": [
+    "apache",
+    "nginx"
+  ],
+  "others": [
+      "debug",
+      "testing",
+      "git",
+      "Problem Solving",
+  "Critical Thinking"
+    ]
+}
