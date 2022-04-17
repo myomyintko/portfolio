@@ -1,6 +1,13 @@
 {
     "experiences":[
         {
+            "company_name":"Qingshan Group",
+            "date_from":"Jan 2022",
+            "date_to":"Current",
+            "position":"Full-Stack Developer",
+            "descriptions":"Qingshan Group is an international Trading Company with a rapid pace of development and innovative solutions for demanding projects. I work as a full-stack developer here, responsible for building, deploying, and maintaining internal web applications. Create web applications through front-end and back-end programming. Integrate web applications and databases.Ensure applications security and ability to interact with multiple APIs and databases. Use programming best practices to write and debug code. Collaborate with a team of web development professionals. Managed time-sensitive updates, including content changes and database upgrades."
+        },
+        {
             "company_name":"Consumer goods myanmar",
             "date_from":"Dec 2020",
             "date_to":"Oct 2021",
