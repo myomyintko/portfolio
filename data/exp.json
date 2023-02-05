@@ -9,15 +9,15 @@
     },
     {
       "company_name": "Consumer goods myanmar",
-      "date_from": "Dec 2020",
-      "date_to": "Oct 2021",
+      "date_from": "2021",
+      "date_to": "2022",
       "position": "JUNIOR QUALITY ASSURANCE",
       "descriptions": "Crafted comprehensive test plans and cases for each software release, utilizing advanced test design techniques to ensure thorough testing. Tracked and reported issues through a formal bug-tracking system, working closely with the engineering team to isolate, debug, and resolve bugs. Stayed up-to-date with industry systems testing tools and best practices. Clearly communicated test progress and results, as well as any defects, to provide clear and actionable insights."
     },
     {
       "company_name": "Vitosms bulk sms services",
-      "date_from": "2021",
-      "date_to": "2020",
+      "date_from": "2020",
+      "date_to": "2021",
       "position": "Web developer",
       "descriptions": "Optimized website performance using Laravel, HTML, CSS, and JS. Created web applications under guidance from senior team members, collaborating closely with the team lead. As a support agent for VitoSMS, a bulk SMS service provider serving over 200 clients around-the-clock, managed hardware and software training, and trained other help desk support agents on technical duties. Provided valuable insights and guidance to email and phone clients, helping them make informed software-pairing decisions based on their budget and specific needs."
     },
