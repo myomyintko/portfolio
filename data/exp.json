@@ -1,32 +1,32 @@
 {
   "experiences": [
     {
-      "company_name": "Qingshan Group",
-      "date_from": "Jan 2022",
-      "date_to": "Current",
-      "position": "Full-Stack Developer",
-      "descriptions": "Qingshan Group is an international Trading Company with a rapid pace of development and innovative solutions for demanding projects. I work as a full-stack developer here, responsible for building, deploying, and maintaining internal web applications. Create web applications through front-end and back-end programming. Integrate web applications and databases. Ensure applications security and ability to interact with multiple APIs and databases.Managed time-sensitive updates, including content changes and database upgrades. Use programming best practices to write and debug code. Collaborate with a team of web development professionals."
+      "company_name": "Unity Power Technology",
+      "date_from": "2022",
+      "date_to": "Present",
+      "position": "TEAM LEAD SOFTWARE DEVELOPER",
+      "descriptions": "Designed and implemented scalable microservices for a leading cryptocurrency exchange platform using Node.js and Golang. Crafted robust APIs for both mobile and web applications, utilizing Golang for improved performance and security. Collaborated with cross-functional teams to seamlessly integrate the API with the front-end using Vue. Enhanced API performance through optimized database queries and the implementation of effective caching techniques. Built a trading engine and exchange system, revolutionizing the Grambling System's trading experience."
     },
     {
       "company_name": "Consumer goods myanmar",
       "date_from": "Dec 2020",
       "date_to": "Oct 2021",
-      "position": "Software Tester",
-      "descriptions": "Design and create test plans test cases for each software release using advanced test design techniques. Report issues through a formal bug tracking system and work with the engineering team to help isolate debug resolve issues/bugs. Stay abreast of industry systems testing tools best practices. Clearly articulate and report on test progress results defects."
+      "position": "JUNIOR QUALITY ASSURANCE",
+      "descriptions": "Crafted comprehensive test plans and cases for each software release, utilizing advanced test design techniques to ensure thorough testing. Tracked and reported issues through a formal bug-tracking system, working closely with the engineering team to isolate, debug, and resolve bugs. Stayed up-to-date with industry systems testing tools and best practices. Clearly communicated test progress and results, as well as any defects, to provide clear and actionable insights."
     },
     {
       "company_name": "Vitosms bulk sms services",
-      "date_from": "Feb 2020",
-      "date_to": "Nov 2020",
+      "date_from": "2021",
+      "date_to": "2020",
       "position": "Web developer",
-      "descriptions": "Maintain existing Laravel projects UI which have been developed previously. Develop web applications as guided by seniors. Work closely with the team lead. VitoSMS is a bulk SMS service provider supporting over 200 clients sending SMS 24/7."
+      "descriptions": "Optimized website performance using Laravel, HTML, CSS, and JS. Created web applications under guidance from senior team members, collaborating closely with the team lead. As a support agent for VitoSMS, a bulk SMS service provider serving over 200 clients around-the-clock, managed hardware and software training, and trained other help desk support agents on technical duties. Provided valuable insights and guidance to email and phone clients, helping them make informed software-pairing decisions based on their budget and specific needs."
     },
     {
       "company_name": "Tastysoft software co.,ltd",
       "date_from": "2018",
-      "date_to": "2019",
+      "date_to": "2020",
       "position": "Web developer",
-      "descriptions": "Develop mogokroyaltreasure.com with PHP. Implement frontend with jQuery and Bootstrap. Review codes for other developers on GitHub. Develop web applications as guided by seniors and project managers. Work closely with the team lead and collaborate with the team."
+      "descriptions": "Developed a traveling website using PHP and elevated the user experience through the implementation of front-end technologies, including jQuery and Bootstrap. Conducted code reviews on GitHub for other developers and contributed to the creation of web applications under the guidance of senior team members and project managers. Collaborated closely with the team lead and actively participated in team efforts to drive project success."
     }
   ]
 }
